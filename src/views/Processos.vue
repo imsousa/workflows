@@ -4,7 +4,7 @@ import Layout from "../components/Layout.vue";
 
 <template>
   <main>
-    <Layout :titulo="'Tarefas'">
+    <Layout :titulo="'Processos'">
 
       TRARARARARAALALALALs
 

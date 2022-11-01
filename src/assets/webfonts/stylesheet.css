@@ -1,0 +1,76 @@
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2014 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      Mostardesign
+ * License URL: http://www.fontspring.com/licenses/mostardesign/webfont
+ *
+ *
+ */
+
+@font-face {
+    font-family: 'sofia_probold';
+    src: url('sofiapro_bold_macroman/SofiaProBold-webfont.eot');
+    src: url('sofiapro_bold_macroman/SofiaProBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sofiapro_bold_macroman/SofiaProBold-webfont.woff2') format('woff2'),
+         url('sofiapro_bold_macroman/SofiaProBold-webfont.woff') format('woff'),
+         url('sofiapro_bold_macroman/SofiaProBold-webfont.ttf') format('truetype'),
+         url('sofiapro_bold_macroman/SofiaProBold-webfont.svg#sofia_probold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sofia_probold_italic';
+    src: url('sofiapro_bolditalic_macroman/SofiaProBoldIt-webfont.eot');
+    src: url('sofiapro_bolditalic_macroman/SofiaProBoldIt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sofiapro_bolditalic_macroman/SofiaProBoldIt-webfont.woff2') format('woff2'),
+         url('sofiapro_bolditalic_macroman/SofiaProBoldIt-webfont.woff') format('woff'),
+         url('sofiapro_bolditalic_macroman/SofiaProBoldIt-webfont.ttf') format('truetype'),
+         url('sofiapro_bolditalic_macroman/SofiaProBoldIt-webfont.svg#sofia_probold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sofia_pro_regularregular';
+    src: url('sofiapro_regular_macroman/SofiaProRegular-webfont.eot');
+    src: url('sofiapro_regular_macroman/SofiaProRegular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sofiapro_regular_macroman/SofiaProRegular-webfont.woff2') format('woff2'),
+         url('sofiapro_regular_macroman/SofiaProRegular-webfont.woff') format('woff'),
+         url('sofiapro_regular_macroman/SofiaProRegular-webfont.ttf') format('truetype'),
+         url('sofiapro_regular_macroman/SofiaProRegular-webfont.svg#sofia_pro_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sofia_proregular_italic';
+    src: url('sofiapro_regularitalic_macroman/SofiaProRegularIt-webfont.eot');
+    src: url('sofiapro_regularitalic_macroman/SofiaProRegularIt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sofiapro_regularitalic_macroman/SofiaProRegularIt-webfont.woff2') format('woff2'),
+         url('sofiapro_regularitalic_macroman/SofiaProRegularIt-webfont.woff') format('woff'),
+         url('sofiapro_regularitalic_macroman/SofiaProRegularIt-webfont.ttf') format('truetype'),
+         url('sofiapro_regularitalic_macroman/SofiaProRegularIt-webfont.svg#sofia_proregular_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
