@@ -110,25 +110,26 @@ defineProps(["titulo"]);
             </header>
 
 
-            <div class="py-6 px-24 bg-clblue h-screen max-w-7xl mx-auto sm:px-6 lg:px-8">
+            <div class="py-6 px-24 bg-clblue h-screen overflow-hidden">
                 <!-- bg branco -->
-                <div class=" border-b border-gray-200 overflow-hidden shadow-sm sm:rounded-lg ">
-                    <div
-                        class=" px-6 pt-6 pb-0 bg-white overflow-y-scroll h-[85vh] scrollbar scrollbar-thumb-gray-300 scrollbar-track-gray-100 scrollbar-thumb-rounded-full ">
-                        <!-- topo da página: breadcrumbs e título -->
-                        <div class="text-gray-600 text-xs">breadcrumbs / breadcrumbs</div>
-                        <h2 class="font-semibold text-xl text-cblue leading-tight py-3 ml-4">
-                            {{ titulo }}
-                        </h2>
+                <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+                    <div class=" border-b border-gray-200 overflow-hidden shadow-sm sm:rounded-lg ">
+                        <div class="px-6 pt-6 pb-0 bg-white h-75">
+                            <!-- topo da página: breadcrumbs e título -->
+                            <div class="text-gray-600 text-xs">breadcrumbs / breadcrumbs</div>
+                            <h2 class="font-semibold text-xl text-cblue leading-tight py-3 ml-4">
+                                {{ titulo }}
+                            </h2>
 
-                        <!-- conteúdo -->
-                        <div class="pt-3 min-h-[75vh] border-t-2 border-gray-200">
-                            <div class="px-8 min-h-[72vh] w-full">
+                            <!-- conteúdo -->
+                            <div class="pt-3 border-t-2 border-gray-200">
+                                <div class="px-8 w-full ">
 
-                                <!-- Page Content -->
-                                <main>
-                                    <slot />
-                                </main>
+                                    <!-- Page Content -->
+                                    <main>
+                                        <slot />
+                                    </main>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -1,6 +1,9 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
 import Processos from "../views/Processos.vue";
+import Tarefa from "../views/Tarefa.vue";
+import Processo from "../views/Processo.vue";
+
 
 
 const router = createRouter({
@@ -16,6 +19,16 @@ const router = createRouter({
       name: "processos",
       component: Processos,
     },
+    {
+      path: "/tarefa/:id/:nome",
+      name: "tarefa",
+      component: Tarefa,
+    },
+    {
+      path: "/processo/:id/:nome",
+      name: "processo",
+      component: Processo,
+    }
   ],
 });
 

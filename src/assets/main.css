@@ -312,6 +312,7 @@ video {
 .form-input {
     display: block; 
     width: 100%;
+    background-color: #E9EBF7;
     border-color: #e2e8f0;
     border-radius: 0.375rem;
 }
