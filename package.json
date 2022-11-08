@@ -41,6 +41,8 @@
     "vite": "^3.1.8",
     "vitest": "^0.24.3",
     "vue-cli-plugin-tailwind": "~3.0.0",
-    "vue-tsc": "^1.0.8"
+    "vue-tsc": "^1.0.8",
+    "@quasar/extras": "^1.0.0",
+    "quasar": "^2.10.1"
   }
 }

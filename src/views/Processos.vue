@@ -6,7 +6,7 @@ import ProcessoMenu from "../components/ProcessoMenu.vue";
 
 <template>
     <main>
-        <Layout :titulo="'Tarefas'">
+        <Layout :titulo="'Iniciar Novo Processo'">
 
             <!-- Barra de procura -->
             <div class="overflow-hidden shadow-sm sm:rounded-lg ">
@@ -23,14 +23,13 @@ import ProcessoMenu from "../components/ProcessoMenu.vue";
 
             <!-- Topo da "tabela" -->
             <div class="mt-4 border-y-2 py-2 mx-2 border-gray-200">
-                <div class="w-[40%] px-5 float-left text-gray-600">Processo</div>
-                <div class="w-[60%] text-gray-600">Data de instalação</div>
+                <div class="w-[100%] px-5 text-gray-600">Processos</div>
             </div>
 
             <!-- Contentor das tarefas -->
             <div class="py-3 mx-2 h-60">
-                <ProcessoMenu :processo="'nome do processo'" :data="'31.10.2022 12:00'" :url="'123/processo-exemplo'"> </ProcessoMenu>
-                <ProcessoMenu :processo="'nome do processo'" :data="'31.10.2022 12:00'" :url="'245/processo-exemplo'"> </ProcessoMenu>
+                <ProcessoMenu :processo="'nome do processo'" :url="'123/processo-exemplo'"> </ProcessoMenu>
+                <ProcessoMenu :processo="'nome do processo'" :url="'245/processo-exemplo'"> </ProcessoMenu>
             </div>
             
 

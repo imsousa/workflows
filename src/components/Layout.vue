@@ -114,7 +114,7 @@ defineProps(["titulo"]);
                 <!-- bg branco -->
                 <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
                     <div class=" border-b border-gray-200 overflow-hidden shadow-sm sm:rounded-lg ">
-                        <div class="px-6 pt-6 pb-0 bg-white h-75">
+                        <div class="px-6 pt-6 pb-0 bg-white h-70">
                             <!-- topo da página: breadcrumbs e título -->
                             <div class="text-gray-600 text-xs">breadcrumbs / breadcrumbs</div>
                             <h2 class="font-semibold text-xl text-cblue leading-tight py-3 ml-4">
@@ -123,7 +123,7 @@ defineProps(["titulo"]);
 
                             <!-- conteúdo -->
                             <div class="pt-3 border-t-2 border-gray-200">
-                                <div class="px-8 w-full ">
+                                <div class="px-8 w-full">
 
                                     <!-- Page Content -->
                                     <main>

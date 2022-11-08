@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
 import Processos from "../views/Processos.vue";
 import Tarefa from "../views/Tarefa.vue";
+import Exemplo from "../views/Exemplo.vue";
 import Processo from "../views/Processo.vue";
 
 
@@ -20,7 +21,7 @@ const router = createRouter({
       component: Processos,
     },
     {
-      path: "/tarefa/:id/:nome",
+      path: "/tarefa/aprovarRelatorio",
       name: "tarefa",
       component: Tarefa,
     },
@@ -28,6 +29,11 @@ const router = createRouter({
       path: "/processo/:id/:nome",
       name: "processo",
       component: Processo,
+    },
+    {
+      path: "/exemplo",
+      name: "exemplo",
+      component: Exemplo,
     }
   ],
 });

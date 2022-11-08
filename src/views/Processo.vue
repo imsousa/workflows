@@ -1,6 +1,8 @@
 <script setup>
 import { def } from "@vue/shared";
 import Layout from "../components/Layout.vue";
+import '@quasar/extras/material-icons/material-icons.css';
+import '@quasar/extras/fontawesome-v5/fontawesome-v5.css';
 
 const form = {
     multiselect: [],
@@ -18,13 +20,15 @@ const options = ['option 1', 'option 2', 'option 3', 'option 4'];
 
             <input type="password" placeholder="type password" class="my-2 form-input">
 
-            <select class="form-input">
+            <input type="file" class="form-input my-2">
+
+            <select class="form-input block">
                 <option> opção 1 </option>
                 <option> opção 2 </option>
                 <option> opção 3 </option>
             </select>
 
-            <textarea placeholder="textarea" class="form-input"></textarea>
+            <q-editor placeholder="textarea" class="form-input my-2 block"></q-editor>
 
             <!--Multiselect-->
             <div v-if="form.multiselect.length"
@@ -34,7 +38,7 @@ const options = ['option 1', 'option 2', 'option 3', 'option 4'];
             <div v-else class=" w-full px-4 border bg-white border-gray-300 text-gray-600 sm:rounded-lg "> Por favor
                 selecione
                 pelo menos uma opção. </div>
-            <button @click="showAlts = !showAlts" type="button" class="mt-2 form-button-white"> Selecionar </button>
+            <button @click="showAlts = !showAlts" type="button" class="mt-2 form-button"> Selecionar </button>
 
             <div v-show="showAlts" class=" fixed top-0 h-screen w-screen left-0 right-0 bg-gray-600 opacity-30 "></div>
             <div v-show="showAlts" class=" fixed grid top-0 h-screen w-screen left-0 right-0 ">
